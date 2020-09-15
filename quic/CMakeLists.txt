@@ -1,4 +1,4 @@
-AUX_SOURCE_DIRECTORY(.                          QUIC_SRCS)
+AUX_SOURCE_DIRECTORY(. QUIC_SRCS)
 AUX_SOURCE_DIRECTORY(./core                     CORE_SRCS)
 AUX_SOURCE_DIRECTORY(./masque                   MASQUE_SRCS)
 AUX_SOURCE_DIRECTORY(./platform                 FPLATFORM_SRCS)
