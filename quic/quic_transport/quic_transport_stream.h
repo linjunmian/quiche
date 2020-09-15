@@ -8,12 +8,12 @@
 #include <cstddef>
 #include <memory>
 
-#include "net/third_party/quiche/src/quic/core/quic_session.h"
-#include "net/third_party/quiche/src/quic/core/quic_stream.h"
-#include "net/third_party/quiche/src/quic/core/quic_types.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_macros.h"
-#include "net/third_party/quiche/src/quic/quic_transport/quic_transport_session_interface.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/quic_session.h"
+#include "quic/core/quic_stream.h"
+#include "quic/core/quic_types.h"
+#include "quic/platform/api/quic_macros.h"
+#include "quic/quic_transport/quic_transport_session_interface.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

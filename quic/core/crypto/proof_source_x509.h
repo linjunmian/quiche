@@ -8,11 +8,11 @@
 #include <forward_list>
 #include <memory>
 
-#include "net/third_party/quiche/src/quic/core/crypto/certificate_view.h"
-#include "net/third_party/quiche/src/quic/core/crypto/proof_source.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_containers.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_macros.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/crypto/certificate_view.h"
+#include "quic/core/crypto/proof_source.h"
+#include "quic/platform/api/quic_containers.h"
+#include "quic/platform/api/quic_macros.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

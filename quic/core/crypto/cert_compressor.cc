@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/core/crypto/cert_compressor.h"
+#include "quic/core/crypto/cert_compressor.h"
 
 #include <cstdint>
 #include <memory>
 #include <string>
 #include <utility>
 
-#include "net/third_party/quiche/src/quic/core/quic_utils.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/quic_utils.h"
+#include "common/platform/api/quiche_string_piece.h"
 #include "third_party/zlib/zlib.h"
 
 namespace quic {

@@ -12,16 +12,16 @@
 #include <string>
 
 #include "third_party/boringssl/src/include/openssl/evp.h"
-#include "net/third_party/quiche/src/quic/core/crypto/crypto_handshake.h"
-#include "net/third_party/quiche/src/quic/core/crypto/crypto_handshake_message.h"
-#include "net/third_party/quiche/src/quic/core/crypto/crypto_protocol.h"
-#include "net/third_party/quiche/src/quic/core/crypto/quic_crypter.h"
-#include "net/third_party/quiche/src/quic/core/quic_connection_id.h"
-#include "net/third_party/quiche/src/quic/core/quic_packets.h"
-#include "net/third_party/quiche/src/quic/core/quic_time.h"
-#include "net/third_party/quiche/src/quic/core/quic_versions.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_export.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/crypto/crypto_handshake.h"
+#include "quic/core/crypto/crypto_handshake_message.h"
+#include "quic/core/crypto/crypto_protocol.h"
+#include "quic/core/crypto/quic_crypter.h"
+#include "quic/core/quic_connection_id.h"
+#include "quic/core/quic_packets.h"
+#include "quic/core/quic_time.h"
+#include "quic/core/quic_versions.h"
+#include "quic/platform/api/quic_export.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

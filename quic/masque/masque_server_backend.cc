@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/masque/masque_server_backend.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_str_cat.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/masque/masque_server_backend.h"
+#include "common/platform/api/quiche_str_cat.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

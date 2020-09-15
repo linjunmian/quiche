@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/common/quiche_data_writer.h"
+#include "common/quiche_data_writer.h"
 
 #include <algorithm>
 #include <limits>
 
-#include "net/third_party/quiche/src/common/platform/api/quiche_endian.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_str_cat.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "common/platform/api/quiche_endian.h"
+#include "common/platform/api/quiche_str_cat.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quiche {
 

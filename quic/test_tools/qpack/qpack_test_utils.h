@@ -8,9 +8,9 @@
 #include <cstddef>
 #include <functional>
 
-#include "net/third_party/quiche/src/quic/core/qpack/qpack_stream_sender_delegate.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_test.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/qpack/qpack_stream_sender_delegate.h"
+#include "quic/platform/api/quic_test.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 namespace test {

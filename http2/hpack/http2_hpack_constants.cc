@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/http2/hpack/http2_hpack_constants.h"
+#include "http2/hpack/http2_hpack_constants.h"
 
-#include "net/third_party/quiche/src/common/platform/api/quiche_str_cat.h"
+#include "common/platform/api/quiche_str_cat.h"
 
 namespace http2 {
 

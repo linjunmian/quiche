@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/spdy/core/spdy_frame_reader.h"
+#include "spdy/core/spdy_frame_reader.h"
 
 #include <cstdint>
 
-#include "net/third_party/quiche/src/common/platform/api/quiche_arraysize.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_test.h"
-#include "net/third_party/quiche/src/spdy/platform/api/spdy_endianness_util.h"
+#include "common/platform/api/quiche_arraysize.h"
+#include "common/platform/api/quiche_test.h"
+#include "spdy/platform/api/spdy_endianness_util.h"
 
 namespace spdy {
 

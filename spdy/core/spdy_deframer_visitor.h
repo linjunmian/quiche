@@ -74,11 +74,11 @@
 #include <utility>
 #include <vector>
 
-#include "net/third_party/quiche/src/spdy/core/http2_frame_decoder_adapter.h"
-#include "net/third_party/quiche/src/spdy/core/spdy_protocol.h"
-#include "net/third_party/quiche/src/spdy/core/spdy_protocol_test_utils.h"
-#include "net/third_party/quiche/src/spdy/core/spdy_test_utils.h"
-#include "net/third_party/quiche/src/spdy/platform/api/spdy_logging.h"
+#include "spdy/core/http2_frame_decoder_adapter.h"
+#include "spdy/core/spdy_protocol.h"
+#include "spdy/core/spdy_protocol_test_utils.h"
+#include "spdy/core/spdy_test_utils.h"
+#include "spdy/platform/api/spdy_logging.h"
 
 namespace spdy {
 namespace test {

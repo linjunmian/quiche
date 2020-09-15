@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/core/qpack/qpack_instruction_encoder.h"
+#include "quic/core/qpack/qpack_instruction_encoder.h"
 
-#include "net/third_party/quiche/src/quic/platform/api/quic_logging.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_test.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_text_utils.h"
+#include "quic/platform/api/quic_logging.h"
+#include "quic/platform/api/quic_test.h"
+#include "common/platform/api/quiche_string_piece.h"
+#include "common/platform/api/quiche_text_utils.h"
 
 namespace quic {
 namespace test {

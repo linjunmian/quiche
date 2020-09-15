@@ -5,8 +5,8 @@
 #ifndef QUICHE_QUIC_TEST_TOOLS_QUIC_CRYPTO_SERVER_CONFIG_PEER_H_
 #define QUICHE_QUIC_TEST_TOOLS_QUIC_CRYPTO_SERVER_CONFIG_PEER_H_
 
-#include "net/third_party/quiche/src/quic/core/crypto/quic_crypto_server_config.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/crypto/quic_crypto_server_config.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 namespace test {

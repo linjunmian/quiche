@@ -6,7 +6,7 @@
 #define QUICHE_QUIC_PLATFORM_API_QUIC_TEST_OUTPUT_H_
 
 #include "net/quic/platform/impl/quic_test_output_impl.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/http2/hpack/decoder/hpack_decoder_string_buffer.h"
+#include "http2/hpack/decoder/hpack_decoder_string_buffer.h"
 
 // Tests of HpackDecoderStringBuffer.
 
 #include <initializer_list>
 
-#include "net/third_party/quiche/src/http2/platform/api/http2_logging.h"
-#include "net/third_party/quiche/src/http2/platform/api/http2_string_utils.h"
-#include "net/third_party/quiche/src/http2/platform/api/http2_test_helpers.h"
+#include "http2/platform/api/http2_logging.h"
+#include "http2/platform/api/http2_string_utils.h"
+#include "http2/platform/api/http2_test_helpers.h"
 
 using ::testing::AssertionResult;
 using ::testing::AssertionSuccess;

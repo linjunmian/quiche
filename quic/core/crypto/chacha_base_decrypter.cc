@@ -2,16 +2,16 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/core/crypto/chacha_base_decrypter.h"
+#include "quic/core/crypto/chacha_base_decrypter.h"
 
 #include <cstdint>
 
 #include "third_party/boringssl/src/include/openssl/chacha.h"
-#include "net/third_party/quiche/src/quic/core/quic_data_reader.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_bug_tracker.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_arraysize.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_endian.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/quic_data_reader.h"
+#include "quic/platform/api/quic_bug_tracker.h"
+#include "common/platform/api/quiche_arraysize.h"
+#include "common/platform/api/quiche_endian.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

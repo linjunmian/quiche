@@ -7,9 +7,9 @@
 
 #include <string>
 
-#include "net/third_party/quiche/src/common/platform/api/quiche_export.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_optional.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "common/platform/api/quiche_export.h"
+#include "common/platform/api/quiche_optional.h"
+#include "common/platform/api/quiche_string_piece.h"
 #include "net/quiche/common/platform/impl/quiche_text_utils_impl.h"
 
 namespace quiche {

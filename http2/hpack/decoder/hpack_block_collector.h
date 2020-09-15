@@ -19,12 +19,12 @@
 #include <vector>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "net/third_party/quiche/src/http2/hpack/decoder/hpack_entry_collector.h"
-#include "net/third_party/quiche/src/http2/hpack/decoder/hpack_entry_decoder_listener.h"
-#include "net/third_party/quiche/src/http2/hpack/http2_hpack_constants.h"
-#include "net/third_party/quiche/src/http2/hpack/tools/hpack_block_builder.h"
-#include "net/third_party/quiche/src/http2/test_tools/http2_random.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "http2/hpack/decoder/hpack_entry_collector.h"
+#include "http2/hpack/decoder/hpack_entry_decoder_listener.h"
+#include "http2/hpack/http2_hpack_constants.h"
+#include "http2/hpack/tools/hpack_block_builder.h"
+#include "http2/test_tools/http2_random.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace http2 {
 namespace test {

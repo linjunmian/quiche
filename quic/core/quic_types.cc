@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/core/quic_types.h"
+#include "quic/core/quic_types.h"
 
 #include <cstdint>
 
-#include "net/third_party/quiche/src/quic/core/quic_error_codes.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_str_cat.h"
+#include "quic/core/quic_error_codes.h"
+#include "common/platform/api/quiche_str_cat.h"
 
 namespace quic {
 

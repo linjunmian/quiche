@@ -8,10 +8,10 @@
 #include <memory>
 #include <ostream>
 
-#include "net/third_party/quiche/src/quic/core/quic_buffer_allocator.h"
-#include "net/third_party/quiche/src/quic/core/quic_constants.h"
-#include "net/third_party/quiche/src/quic/core/quic_types.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_export.h"
+#include "quic/core/quic_buffer_allocator.h"
+#include "quic/core/quic_constants.h"
+#include "quic/core/quic_types.h"
+#include "quic/platform/api/quic_export.h"
 
 namespace quic {
 

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/core/crypto/channel_id.h"
+#include "quic/core/crypto/channel_id.h"
 
 #include <cstdint>
 
@@ -11,7 +11,7 @@
 #include "third_party/boringssl/src/include/openssl/ecdsa.h"
 #include "third_party/boringssl/src/include/openssl/nid.h"
 #include "third_party/boringssl/src/include/openssl/sha.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

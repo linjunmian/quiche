@@ -2,18 +2,18 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/core/quic_stream_sequencer_buffer.h"
+#include "quic/core/quic_stream_sequencer_buffer.h"
 
 #include <string>
 
-#include "net/third_party/quiche/src/quic/core/quic_constants.h"
-#include "net/third_party/quiche/src/quic/core/quic_interval.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_bug_tracker.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_flag_utils.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_flags.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_logging.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_str_cat.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/quic_constants.h"
+#include "quic/core/quic_interval.h"
+#include "quic/platform/api/quic_bug_tracker.h"
+#include "quic/platform/api/quic_flag_utils.h"
+#include "quic/platform/api/quic_flags.h"
+#include "quic/platform/api/quic_logging.h"
+#include "common/platform/api/quiche_str_cat.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 namespace {

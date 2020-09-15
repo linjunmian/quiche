@@ -2,16 +2,16 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/core/http/quic_send_control_stream.h"
+#include "quic/core/http/quic_send_control_stream.h"
 
 #include <utility>
 
-#include "net/third_party/quiche/src/quic/platform/api/quic_flags.h"
-#include "net/third_party/quiche/src/quic/test_tools/quic_config_peer.h"
-#include "net/third_party/quiche/src/quic/test_tools/quic_spdy_session_peer.h"
-#include "net/third_party/quiche/src/quic/test_tools/quic_test_utils.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_text_utils.h"
+#include "quic/platform/api/quic_flags.h"
+#include "quic/test_tools/quic_config_peer.h"
+#include "quic/test_tools/quic_spdy_session_peer.h"
+#include "quic/test_tools/quic_test_utils.h"
+#include "common/platform/api/quiche_string_piece.h"
+#include "common/platform/api/quiche_text_utils.h"
 
 namespace quic {
 namespace test {

@@ -7,7 +7,7 @@
 
 #include <cstdint>
 
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

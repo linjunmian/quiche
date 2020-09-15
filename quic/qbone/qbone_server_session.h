@@ -5,15 +5,15 @@
 #ifndef QUICHE_QUIC_QBONE_QBONE_SERVER_SESSION_H_
 #define QUICHE_QUIC_QBONE_QBONE_SERVER_SESSION_H_
 
-#include "net/third_party/quiche/src/quic/core/quic_crypto_server_stream_base.h"
-#include "net/third_party/quiche/src/quic/core/quic_crypto_stream.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_export.h"
-#include "net/third_party/quiche/src/quic/qbone/qbone_control.pb.h"
-#include "net/third_party/quiche/src/quic/qbone/qbone_control_stream.h"
-#include "net/third_party/quiche/src/quic/qbone/qbone_packet_processor.h"
-#include "net/third_party/quiche/src/quic/qbone/qbone_packet_writer.h"
-#include "net/third_party/quiche/src/quic/qbone/qbone_session_base.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/quic_crypto_server_stream_base.h"
+#include "quic/core/quic_crypto_stream.h"
+#include "quic/platform/api/quic_export.h"
+#include "quic/qbone/qbone_control.pb.h"
+#include "quic/qbone/qbone_control_stream.h"
+#include "quic/qbone/qbone_packet_processor.h"
+#include "quic/qbone/qbone_packet_writer.h"
+#include "quic/qbone/qbone_session_base.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

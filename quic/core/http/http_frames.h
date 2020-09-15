@@ -9,12 +9,12 @@
 #include <map>
 #include <ostream>
 
-#include "net/third_party/quiche/src/quic/core/http/spdy_utils.h"
-#include "net/third_party/quiche/src/quic/core/quic_types.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_string_utils.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_str_cat.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
-#include "net/third_party/quiche/src/spdy/core/spdy_framer.h"
+#include "quic/core/http/spdy_utils.h"
+#include "quic/core/quic_types.h"
+#include "quic/platform/api/quic_string_utils.h"
+#include "common/platform/api/quiche_str_cat.h"
+#include "common/platform/api/quiche_string_piece.h"
+#include "spdy/core/spdy_framer.h"
 
 namespace quic {
 

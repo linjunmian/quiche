@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/spdy/core/spdy_simple_arena.h"
+#include "spdy/core/spdy_simple_arena.h"
 
 #include <string>
 #include <vector>
 
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_test.h"
+#include "common/platform/api/quiche_string_piece.h"
+#include "common/platform/api/quiche_test.h"
 
 namespace spdy {
 namespace {

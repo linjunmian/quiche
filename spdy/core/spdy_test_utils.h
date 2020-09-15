@@ -9,11 +9,11 @@
 #include <cstdint>
 #include <string>
 
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
-#include "net/third_party/quiche/src/spdy/core/spdy_header_block.h"
-#include "net/third_party/quiche/src/spdy/core/spdy_headers_handler_interface.h"
-#include "net/third_party/quiche/src/spdy/core/spdy_protocol.h"
-#include "net/third_party/quiche/src/spdy/platform/api/spdy_bug_tracker.h"
+#include "common/platform/api/quiche_string_piece.h"
+#include "spdy/core/spdy_header_block.h"
+#include "spdy/core/spdy_headers_handler_interface.h"
+#include "spdy/core/spdy_protocol.h"
+#include "spdy/platform/api/spdy_bug_tracker.h"
 
 namespace spdy {
 

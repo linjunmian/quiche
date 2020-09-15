@@ -6,20 +6,20 @@
 #include <string>
 #include <utility>
 
-#include "net/third_party/quiche/src/quic/core/crypto/quic_crypto_server_config.h"
-#include "net/third_party/quiche/src/quic/core/crypto/tls_client_connection.h"
-#include "net/third_party/quiche/src/quic/core/crypto/tls_server_connection.h"
-#include "net/third_party/quiche/src/quic/core/quic_utils.h"
-#include "net/third_party/quiche/src/quic/core/tls_client_handshaker.h"
-#include "net/third_party/quiche/src/quic/core/tls_server_handshaker.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_test.h"
-#include "net/third_party/quiche/src/quic/test_tools/crypto_test_utils.h"
-#include "net/third_party/quiche/src/quic/test_tools/fake_proof_source.h"
-#include "net/third_party/quiche/src/quic/test_tools/mock_quic_session_visitor.h"
-#include "net/third_party/quiche/src/quic/test_tools/quic_test_utils.h"
-#include "net/third_party/quiche/src/quic/tools/fake_proof_verifier.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_arraysize.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/crypto/quic_crypto_server_config.h"
+#include "quic/core/crypto/tls_client_connection.h"
+#include "quic/core/crypto/tls_server_connection.h"
+#include "quic/core/quic_utils.h"
+#include "quic/core/tls_client_handshaker.h"
+#include "quic/core/tls_server_handshaker.h"
+#include "quic/platform/api/quic_test.h"
+#include "quic/test_tools/crypto_test_utils.h"
+#include "quic/test_tools/fake_proof_source.h"
+#include "quic/test_tools/mock_quic_session_visitor.h"
+#include "quic/test_tools/quic_test_utils.h"
+#include "quic/tools/fake_proof_verifier.h"
+#include "common/platform/api/quiche_arraysize.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 namespace test {

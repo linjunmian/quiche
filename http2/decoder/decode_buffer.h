@@ -17,9 +17,9 @@
 #include <algorithm>
 #include <cstdint>
 
-#include "net/third_party/quiche/src/http2/platform/api/http2_logging.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_export.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "http2/platform/api/http2_logging.h"
+#include "common/platform/api/quiche_export.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace http2 {
 class DecodeBufferSubset;

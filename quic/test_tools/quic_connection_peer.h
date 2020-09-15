@@ -5,11 +5,11 @@
 #ifndef QUICHE_QUIC_TEST_TOOLS_QUIC_CONNECTION_PEER_H_
 #define QUICHE_QUIC_TEST_TOOLS_QUIC_CONNECTION_PEER_H_
 
-#include "net/third_party/quiche/src/quic/core/quic_connection.h"
-#include "net/third_party/quiche/src/quic/core/quic_connection_stats.h"
-#include "net/third_party/quiche/src/quic/core/quic_packets.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_socket_address.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/quic_connection.h"
+#include "quic/core/quic_connection_stats.h"
+#include "quic/core/quic_packets.h"
+#include "quic/platform/api/quic_socket_address.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

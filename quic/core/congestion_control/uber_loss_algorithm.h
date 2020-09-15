@@ -5,10 +5,10 @@
 #ifndef QUICHE_QUIC_CORE_CONGESTION_CONTROL_UBER_LOSS_ALGORITHM_H_
 #define QUICHE_QUIC_CORE_CONGESTION_CONTROL_UBER_LOSS_ALGORITHM_H_
 
-#include "net/third_party/quiche/src/quic/core/congestion_control/general_loss_algorithm.h"
-#include "net/third_party/quiche/src/quic/core/quic_types.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_flags.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_optional.h"
+#include "quic/core/congestion_control/general_loss_algorithm.h"
+#include "quic/core/quic_types.h"
+#include "quic/platform/api/quic_flags.h"
+#include "common/platform/api/quiche_optional.h"
 
 namespace quic {
 

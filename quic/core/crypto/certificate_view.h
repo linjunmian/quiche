@@ -12,13 +12,13 @@
 #include "third_party/boringssl/src/include/openssl/base.h"
 #include "third_party/boringssl/src/include/openssl/bytestring.h"
 #include "third_party/boringssl/src/include/openssl/evp.h"
-#include "net/third_party/quiche/src/quic/core/crypto/boring_utils.h"
-#include "net/third_party/quiche/src/quic/core/quic_time.h"
-#include "net/third_party/quiche/src/quic/core/quic_types.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_export.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_ip_address.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_optional.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/crypto/boring_utils.h"
+#include "quic/core/quic_time.h"
+#include "quic/core/quic_types.h"
+#include "quic/platform/api/quic_export.h"
+#include "quic/platform/api/quic_ip_address.h"
+#include "common/platform/api/quiche_optional.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

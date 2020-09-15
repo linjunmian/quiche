@@ -18,9 +18,9 @@
 #include <cstdint>
 #include <string>
 
-#include "net/third_party/quiche/src/http2/http2_constants.h"
-#include "net/third_party/quiche/src/http2/http2_structures.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "http2/http2_constants.h"
+#include "http2/http2_structures.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace http2 {
 namespace test {

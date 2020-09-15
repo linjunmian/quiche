@@ -17,15 +17,15 @@
 #include <utility>
 #include <vector>
 
-#include "net/third_party/quiche/src/common/platform/api/quiche_map_util.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_str_cat.h"
-#include "net/third_party/quiche/src/spdy/core/spdy_intrusive_list.h"
-#include "net/third_party/quiche/src/spdy/core/spdy_protocol.h"
-#include "net/third_party/quiche/src/spdy/core/write_scheduler.h"
-#include "net/third_party/quiche/src/spdy/platform/api/spdy_bug_tracker.h"
-#include "net/third_party/quiche/src/spdy/platform/api/spdy_containers.h"
-#include "net/third_party/quiche/src/spdy/platform/api/spdy_logging.h"
-#include "net/third_party/quiche/src/spdy/platform/api/spdy_string_utils.h"
+#include "common/platform/api/quiche_map_util.h"
+#include "common/platform/api/quiche_str_cat.h"
+#include "spdy/core/spdy_intrusive_list.h"
+#include "spdy/core/spdy_protocol.h"
+#include "spdy/core/write_scheduler.h"
+#include "spdy/platform/api/spdy_bug_tracker.h"
+#include "spdy/platform/api/spdy_containers.h"
+#include "spdy/platform/api/spdy_logging.h"
+#include "spdy/platform/api/spdy_string_utils.h"
 
 namespace spdy {
 

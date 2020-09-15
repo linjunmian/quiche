@@ -2,26 +2,26 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/core/quic_utils.h"
+#include "quic/core/quic_utils.h"
 
 #include <algorithm>
 #include <cstdint>
 #include <cstring>
 #include <string>
 
-#include "net/third_party/quiche/src/quic/core/quic_connection_id.h"
-#include "net/third_party/quiche/src/quic/core/quic_constants.h"
-#include "net/third_party/quiche/src/quic/core/quic_types.h"
-#include "net/third_party/quiche/src/quic/core/quic_versions.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_aligned.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_bug_tracker.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_flag_utils.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_flags.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_prefetch.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_uint128.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_arraysize.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_endian.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/quic_connection_id.h"
+#include "quic/core/quic_constants.h"
+#include "quic/core/quic_types.h"
+#include "quic/core/quic_versions.h"
+#include "quic/platform/api/quic_aligned.h"
+#include "quic/platform/api/quic_bug_tracker.h"
+#include "quic/platform/api/quic_flag_utils.h"
+#include "quic/platform/api/quic_flags.h"
+#include "quic/platform/api/quic_prefetch.h"
+#include "quic/platform/api/quic_uint128.h"
+#include "common/platform/api/quiche_arraysize.h"
+#include "common/platform/api/quiche_endian.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 namespace {

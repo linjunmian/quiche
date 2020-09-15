@@ -5,10 +5,10 @@
 #include <cstddef>
 #include <iostream>
 
-#include "net/third_party/quiche/src/quic/platform/api/quic_flags.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_logging.h"
-#include "net/third_party/quiche/src/quic/test_tools/qpack/qpack_offline_decoder.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/platform/api/quic_flags.h"
+#include "quic/platform/api/quic_logging.h"
+#include "quic/test_tools/qpack/qpack_offline_decoder.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 int main(int argc, char* argv[]) {
   const char* usage =

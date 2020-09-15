@@ -8,18 +8,18 @@
 #include <string>
 #include <utility>
 
-#include "net/third_party/quiche/src/quic/core/http/quic_header_list.h"
-#include "net/third_party/quiche/src/quic/core/qpack/qpack_decoded_headers_accumulator.h"
-#include "net/third_party/quiche/src/quic/core/qpack/qpack_decoder.h"
-#include "net/third_party/quiche/src/quic/core/qpack/qpack_encoder.h"
-#include "net/third_party/quiche/src/quic/core/qpack/qpack_stream_sender_delegate.h"
-#include "net/third_party/quiche/src/quic/core/qpack/value_splitting_header_list.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_containers.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_fuzzed_data_provider.h"
-#include "net/third_party/quiche/src/quic/test_tools/qpack/qpack_decoder_test_utils.h"
-#include "net/third_party/quiche/src/quic/test_tools/qpack/qpack_encoder_peer.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
-#include "net/third_party/quiche/src/spdy/core/spdy_header_block.h"
+#include "quic/core/http/quic_header_list.h"
+#include "quic/core/qpack/qpack_decoded_headers_accumulator.h"
+#include "quic/core/qpack/qpack_decoder.h"
+#include "quic/core/qpack/qpack_encoder.h"
+#include "quic/core/qpack/qpack_stream_sender_delegate.h"
+#include "quic/core/qpack/value_splitting_header_list.h"
+#include "quic/platform/api/quic_containers.h"
+#include "quic/platform/api/quic_fuzzed_data_provider.h"
+#include "quic/test_tools/qpack/qpack_decoder_test_utils.h"
+#include "quic/test_tools/qpack/qpack_encoder_peer.h"
+#include "common/platform/api/quiche_string_piece.h"
+#include "spdy/core/spdy_header_block.h"
 
 namespace quic {
 namespace test {

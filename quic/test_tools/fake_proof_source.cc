@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/test_tools/fake_proof_source.h"
+#include "quic/test_tools/fake_proof_source.h"
 
 #include <utility>
 
-#include "net/third_party/quiche/src/quic/platform/api/quic_logging.h"
-#include "net/third_party/quiche/src/quic/test_tools/crypto_test_utils.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/platform/api/quic_logging.h"
+#include "quic/test_tools/crypto_test_utils.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 namespace test {

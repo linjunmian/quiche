@@ -12,18 +12,18 @@
 #include <string>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "net/third_party/quiche/src/http2/decoder/decode_buffer.h"
-#include "net/third_party/quiche/src/http2/decoder/decode_status.h"
-#include "net/third_party/quiche/src/http2/decoder/frame_decoder_state.h"
-#include "net/third_party/quiche/src/http2/decoder/http2_frame_decoder_listener.h"
-#include "net/third_party/quiche/src/http2/http2_constants.h"
-#include "net/third_party/quiche/src/http2/http2_constants_test_util.h"
-#include "net/third_party/quiche/src/http2/http2_structures.h"
-#include "net/third_party/quiche/src/http2/platform/api/http2_logging.h"
-#include "net/third_party/quiche/src/http2/test_tools/frame_parts.h"
-#include "net/third_party/quiche/src/http2/tools/http2_frame_builder.h"
-#include "net/third_party/quiche/src/http2/tools/random_decoder_test.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "http2/decoder/decode_buffer.h"
+#include "http2/decoder/decode_status.h"
+#include "http2/decoder/frame_decoder_state.h"
+#include "http2/decoder/http2_frame_decoder_listener.h"
+#include "http2/http2_constants.h"
+#include "http2/http2_constants_test_util.h"
+#include "http2/http2_structures.h"
+#include "http2/platform/api/http2_logging.h"
+#include "http2/test_tools/frame_parts.h"
+#include "http2/tools/http2_frame_builder.h"
+#include "http2/tools/random_decoder_test.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace http2 {
 namespace test {

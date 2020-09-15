@@ -12,20 +12,20 @@
 #include <string>
 #include <vector>
 
-#include "net/third_party/quiche/src/quic/core/crypto/quic_compressed_certs_cache.h"
-#include "net/third_party/quiche/src/quic/core/crypto/quic_random.h"
-#include "net/third_party/quiche/src/quic/core/quic_blocked_writer_interface.h"
-#include "net/third_party/quiche/src/quic/core/quic_buffered_packet_store.h"
-#include "net/third_party/quiche/src/quic/core/quic_connection.h"
-#include "net/third_party/quiche/src/quic/core/quic_crypto_server_stream_base.h"
-#include "net/third_party/quiche/src/quic/core/quic_packets.h"
-#include "net/third_party/quiche/src/quic/core/quic_process_packet_interface.h"
-#include "net/third_party/quiche/src/quic/core/quic_session.h"
-#include "net/third_party/quiche/src/quic/core/quic_time_wait_list_manager.h"
-#include "net/third_party/quiche/src/quic/core/quic_version_manager.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_containers.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_socket_address.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/crypto/quic_compressed_certs_cache.h"
+#include "quic/core/crypto/quic_random.h"
+#include "quic/core/quic_blocked_writer_interface.h"
+#include "quic/core/quic_buffered_packet_store.h"
+#include "quic/core/quic_connection.h"
+#include "quic/core/quic_crypto_server_stream_base.h"
+#include "quic/core/quic_packets.h"
+#include "quic/core/quic_process_packet_interface.h"
+#include "quic/core/quic_session.h"
+#include "quic/core/quic_time_wait_list_manager.h"
+#include "quic/core/quic_version_manager.h"
+#include "quic/platform/api/quic_containers.h"
+#include "quic/platform/api/quic_socket_address.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 namespace test {

@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/core/qpack/qpack_encoder_stream_receiver.h"
+#include "quic/core/qpack/qpack_encoder_stream_receiver.h"
 
-#include "net/third_party/quiche/src/http2/decoder/decode_buffer.h"
-#include "net/third_party/quiche/src/http2/decoder/decode_status.h"
-#include "net/third_party/quiche/src/quic/core/qpack/qpack_instructions.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "http2/decoder/decode_buffer.h"
+#include "http2/decoder/decode_status.h"
+#include "quic/core/qpack/qpack_instructions.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

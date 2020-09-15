@@ -7,11 +7,11 @@
 #include <limits>
 #include <utility>
 
-#include "net/third_party/quiche/src/quic/core/qpack/qpack_decoder.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_fuzzed_data_provider.h"
-#include "net/third_party/quiche/src/quic/test_tools/qpack/qpack_decoder_test_utils.h"
-#include "net/third_party/quiche/src/quic/test_tools/qpack/qpack_test_utils.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/qpack/qpack_decoder.h"
+#include "quic/platform/api/quic_fuzzed_data_provider.h"
+#include "quic/test_tools/qpack/qpack_decoder_test_utils.h"
+#include "quic/test_tools/qpack/qpack_test_utils.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 namespace test {

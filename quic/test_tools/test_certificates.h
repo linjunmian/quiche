@@ -5,8 +5,8 @@
 #ifndef QUICHE_QUIC_TEST_TOOLS_TEST_CERTIFICATES_H_
 #define QUICHE_QUIC_TEST_TOOLS_TEST_CERTIFICATES_H_
 
-#include "net/third_party/quiche/src/quic/platform/api/quic_macros.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/platform/api/quic_macros.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 namespace test {

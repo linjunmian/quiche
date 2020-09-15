@@ -7,10 +7,10 @@
 
 #include <vector>
 
-#include "net/third_party/quiche/src/quic/core/crypto/certificate_view.h"
-#include "net/third_party/quiche/src/quic/core/crypto/proof_verifier.h"
-#include "net/third_party/quiche/src/quic/core/quic_clock.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/crypto/certificate_view.h"
+#include "quic/core/crypto/proof_verifier.h"
+#include "quic/core/quic_clock.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

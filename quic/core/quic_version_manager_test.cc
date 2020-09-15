@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/core/quic_version_manager.h"
+#include "quic/core/quic_version_manager.h"
 
-#include "net/third_party/quiche/src/quic/core/quic_versions.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_flags.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_test.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_arraysize.h"
+#include "quic/core/quic_versions.h"
+#include "quic/platform/api/quic_flags.h"
+#include "quic/platform/api/quic_test.h"
+#include "common/platform/api/quiche_arraysize.h"
 
 using ::testing::ElementsAre;
 

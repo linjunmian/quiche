@@ -9,9 +9,9 @@
 #include <set>
 #include <string>
 
-#include "net/third_party/quiche/src/common/platform/api/quiche_str_cat.h"
-#include "net/third_party/quiche/src/spdy/core/write_scheduler.h"
-#include "net/third_party/quiche/src/spdy/platform/api/spdy_string_utils.h"
+#include "common/platform/api/quiche_str_cat.h"
+#include "spdy/core/write_scheduler.h"
+#include "spdy/platform/api/spdy_string_utils.h"
 
 namespace spdy {
 

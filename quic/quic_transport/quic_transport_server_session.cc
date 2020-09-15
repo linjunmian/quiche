@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/quic_transport/quic_transport_server_session.h"
+#include "quic/quic_transport/quic_transport_server_session.h"
 
 #include <algorithm>
 #include <memory>
@@ -10,13 +10,13 @@
 
 #include "url/gurl.h"
 #include "url/url_constants.h"
-#include "net/third_party/quiche/src/quic/core/quic_error_codes.h"
-#include "net/third_party/quiche/src/quic/core/quic_stream.h"
-#include "net/third_party/quiche/src/quic/core/quic_types.h"
-#include "net/third_party/quiche/src/quic/quic_transport/quic_transport_protocol.h"
-#include "net/third_party/quiche/src/quic/quic_transport/quic_transport_stream.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_str_cat.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/quic_error_codes.h"
+#include "quic/core/quic_stream.h"
+#include "quic/core/quic_types.h"
+#include "quic/quic_transport/quic_transport_protocol.h"
+#include "quic/quic_transport/quic_transport_stream.h"
+#include "common/platform/api/quiche_str_cat.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

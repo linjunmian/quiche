@@ -9,9 +9,9 @@
 #include <map>
 #include <string>
 
-#include "net/third_party/quiche/src/common/platform/api/quiche_export.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
-#include "net/third_party/quiche/src/spdy/core/hpack/hpack_constants.h"
+#include "common/platform/api/quiche_export.h"
+#include "common/platform/api/quiche_string_piece.h"
+#include "spdy/core/hpack/hpack_constants.h"
 
 // All section references below are to
 // http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-08

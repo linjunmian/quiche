@@ -18,12 +18,12 @@
 #include <type_traits>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "net/third_party/quiche/src/http2/decoder/decode_buffer.h"
-#include "net/third_party/quiche/src/http2/decoder/decode_status.h"
-#include "net/third_party/quiche/src/http2/platform/api/http2_logging.h"
-#include "net/third_party/quiche/src/http2/platform/api/http2_test_helpers.h"
-#include "net/third_party/quiche/src/http2/test_tools/http2_random.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "http2/decoder/decode_buffer.h"
+#include "http2/decoder/decode_status.h"
+#include "http2/platform/api/http2_logging.h"
+#include "http2/platform/api/http2_test_helpers.h"
+#include "http2/test_tools/http2_random.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace http2 {
 namespace test {

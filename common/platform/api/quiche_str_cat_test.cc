@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/common/platform/api/quiche_str_cat.h"
+#include "common/platform/api/quiche_str_cat.h"
 
 #include <string>
 
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_test.h"
+#include "common/platform/api/quiche_string_piece.h"
+#include "common/platform/api/quiche_test.h"
 
 namespace quiche {
 namespace test {

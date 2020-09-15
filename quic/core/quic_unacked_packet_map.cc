@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/core/quic_unacked_packet_map.h"
+#include "quic/core/quic_unacked_packet_map.h"
 
 #include <limits>
 #include <type_traits>
 
-#include "net/third_party/quiche/src/quic/core/quic_connection_stats.h"
-#include "net/third_party/quiche/src/quic/core/quic_utils.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_bug_tracker.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_flag_utils.h"
+#include "quic/core/quic_connection_stats.h"
+#include "quic/core/quic_utils.h"
+#include "quic/platform/api/quic_bug_tracker.h"
+#include "quic/platform/api/quic_flag_utils.h"
 
 namespace quic {
 

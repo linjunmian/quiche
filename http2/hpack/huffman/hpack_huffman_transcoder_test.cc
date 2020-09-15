@@ -7,13 +7,13 @@
 #include <stddef.h>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "net/third_party/quiche/src/http2/decoder/decode_buffer.h"
-#include "net/third_party/quiche/src/http2/decoder/decode_status.h"
-#include "net/third_party/quiche/src/http2/hpack/huffman/hpack_huffman_decoder.h"
-#include "net/third_party/quiche/src/http2/hpack/huffman/hpack_huffman_encoder.h"
-#include "net/third_party/quiche/src/http2/platform/api/http2_string_utils.h"
-#include "net/third_party/quiche/src/http2/tools/random_decoder_test.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "http2/decoder/decode_buffer.h"
+#include "http2/decoder/decode_status.h"
+#include "http2/hpack/huffman/hpack_huffman_decoder.h"
+#include "http2/hpack/huffman/hpack_huffman_encoder.h"
+#include "http2/platform/api/http2_string_utils.h"
+#include "http2/tools/random_decoder_test.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 using ::testing::AssertionResult;
 using ::testing::AssertionSuccess;

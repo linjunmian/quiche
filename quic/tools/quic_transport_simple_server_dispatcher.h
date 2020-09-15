@@ -6,9 +6,9 @@
 #define QUICHE_QUIC_TOOLS_QUIC_TRANSPORT_SIMPLE_SERVER_DISPATCHER_H_
 
 #include "url/origin.h"
-#include "net/third_party/quiche/src/quic/core/quic_dispatcher.h"
-#include "net/third_party/quiche/src/quic/tools/quic_transport_simple_server_session.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/quic_dispatcher.h"
+#include "quic/tools/quic_transport_simple_server_session.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

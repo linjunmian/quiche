@@ -16,14 +16,14 @@
 
 #include <cstdint>
 
-#include "net/third_party/quiche/src/http2/hpack/decoder/hpack_decoder_listener.h"
-#include "net/third_party/quiche/src/http2/hpack/decoder/hpack_decoder_string_buffer.h"
-#include "net/third_party/quiche/src/http2/hpack/decoder/hpack_decoder_tables.h"
-#include "net/third_party/quiche/src/http2/hpack/decoder/hpack_decoding_error.h"
-#include "net/third_party/quiche/src/http2/hpack/decoder/hpack_whole_entry_listener.h"
-#include "net/third_party/quiche/src/http2/hpack/http2_hpack_constants.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_export.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "http2/hpack/decoder/hpack_decoder_listener.h"
+#include "http2/hpack/decoder/hpack_decoder_string_buffer.h"
+#include "http2/hpack/decoder/hpack_decoder_tables.h"
+#include "http2/hpack/decoder/hpack_decoding_error.h"
+#include "http2/hpack/decoder/hpack_whole_entry_listener.h"
+#include "http2/hpack/http2_hpack_constants.h"
+#include "common/platform/api/quiche_export.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace http2 {
 namespace test {

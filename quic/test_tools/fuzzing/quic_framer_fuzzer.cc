@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/core/crypto/crypto_framer.h"
-#include "net/third_party/quiche/src/quic/core/crypto/crypto_handshake_message.h"
-#include "net/third_party/quiche/src/quic/core/quic_framer.h"
-#include "net/third_party/quiche/src/quic/core/quic_packets.h"
-#include "net/third_party/quiche/src/quic/test_tools/quic_test_utils.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/crypto/crypto_framer.h"
+#include "quic/core/crypto/crypto_handshake_message.h"
+#include "quic/core/quic_framer.h"
+#include "quic/core/quic_packets.h"
+#include "quic/test_tools/quic_test_utils.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 extern "C" int LLVMFuzzerTestOneInput(const uint8_t* data, size_t size) {
   quic::QuicFramer framer(quic::AllSupportedVersions(), quic::QuicTime::Zero(),

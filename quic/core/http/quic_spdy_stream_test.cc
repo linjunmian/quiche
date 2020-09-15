@@ -2,37 +2,37 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/core/http/quic_spdy_stream.h"
+#include "quic/core/http/quic_spdy_stream.h"
 
 #include <cstring>
 #include <memory>
 #include <string>
 #include <utility>
 
-#include "net/third_party/quiche/src/quic/core/crypto/null_encrypter.h"
-#include "net/third_party/quiche/src/quic/core/http/http_encoder.h"
-#include "net/third_party/quiche/src/quic/core/http/spdy_utils.h"
-#include "net/third_party/quiche/src/quic/core/quic_connection.h"
-#include "net/third_party/quiche/src/quic/core/quic_stream_sequencer_buffer.h"
-#include "net/third_party/quiche/src/quic/core/quic_utils.h"
-#include "net/third_party/quiche/src/quic/core/quic_versions.h"
-#include "net/third_party/quiche/src/quic/core/quic_write_blocked_list.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_expect_bug.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_map_util.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_ptr_util.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_test.h"
-#include "net/third_party/quiche/src/quic/test_tools/qpack/qpack_test_utils.h"
-#include "net/third_party/quiche/src/quic/test_tools/quic_config_peer.h"
-#include "net/third_party/quiche/src/quic/test_tools/quic_connection_peer.h"
-#include "net/third_party/quiche/src/quic/test_tools/quic_flow_controller_peer.h"
-#include "net/third_party/quiche/src/quic/test_tools/quic_session_peer.h"
-#include "net/third_party/quiche/src/quic/test_tools/quic_spdy_session_peer.h"
-#include "net/third_party/quiche/src/quic/test_tools/quic_spdy_stream_peer.h"
-#include "net/third_party/quiche/src/quic/test_tools/quic_stream_peer.h"
-#include "net/third_party/quiche/src/quic/test_tools/quic_test_utils.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_arraysize.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_text_utils.h"
+#include "quic/core/crypto/null_encrypter.h"
+#include "quic/core/http/http_encoder.h"
+#include "quic/core/http/spdy_utils.h"
+#include "quic/core/quic_connection.h"
+#include "quic/core/quic_stream_sequencer_buffer.h"
+#include "quic/core/quic_utils.h"
+#include "quic/core/quic_versions.h"
+#include "quic/core/quic_write_blocked_list.h"
+#include "quic/platform/api/quic_expect_bug.h"
+#include "quic/platform/api/quic_map_util.h"
+#include "quic/platform/api/quic_ptr_util.h"
+#include "quic/platform/api/quic_test.h"
+#include "quic/test_tools/qpack/qpack_test_utils.h"
+#include "quic/test_tools/quic_config_peer.h"
+#include "quic/test_tools/quic_connection_peer.h"
+#include "quic/test_tools/quic_flow_controller_peer.h"
+#include "quic/test_tools/quic_session_peer.h"
+#include "quic/test_tools/quic_spdy_session_peer.h"
+#include "quic/test_tools/quic_spdy_stream_peer.h"
+#include "quic/test_tools/quic_stream_peer.h"
+#include "quic/test_tools/quic_test_utils.h"
+#include "common/platform/api/quiche_arraysize.h"
+#include "common/platform/api/quiche_string_piece.h"
+#include "common/platform/api/quiche_text_utils.h"
 
 using spdy::kV3HighestPriority;
 using spdy::kV3LowestPriority;

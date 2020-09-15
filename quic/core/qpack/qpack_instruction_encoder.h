@@ -8,9 +8,9 @@
 #include <cstdint>
 #include <string>
 
-#include "net/third_party/quiche/src/quic/core/qpack/qpack_instructions.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_export.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/qpack/qpack_instructions.h"
+#include "quic/platform/api/quic_export.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

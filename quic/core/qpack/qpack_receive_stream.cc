@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/core/qpack/qpack_receive_stream.h"
+#include "quic/core/qpack/qpack_receive_stream.h"
 
-#include "net/third_party/quiche/src/quic/core/quic_session.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/quic_session.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 QpackReceiveStream::QpackReceiveStream(PendingStream* pending,

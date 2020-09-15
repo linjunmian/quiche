@@ -11,15 +11,15 @@
 #include <memory>
 #include <string>
 
-#include "net/third_party/quiche/src/http2/decoder/http2_frame_decoder.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_export.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_optional.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
-#include "net/third_party/quiche/src/spdy/core/hpack/hpack_decoder_adapter.h"
-#include "net/third_party/quiche/src/spdy/core/hpack/hpack_header_table.h"
-#include "net/third_party/quiche/src/spdy/core/spdy_alt_svc_wire_format.h"
-#include "net/third_party/quiche/src/spdy/core/spdy_headers_handler_interface.h"
-#include "net/third_party/quiche/src/spdy/core/spdy_protocol.h"
+#include "http2/decoder/http2_frame_decoder.h"
+#include "common/platform/api/quiche_export.h"
+#include "common/platform/api/quiche_optional.h"
+#include "common/platform/api/quiche_string_piece.h"
+#include "spdy/core/hpack/hpack_decoder_adapter.h"
+#include "spdy/core/hpack/hpack_header_table.h"
+#include "spdy/core/spdy_alt_svc_wire_format.h"
+#include "spdy/core/spdy_headers_handler_interface.h"
+#include "spdy/core/spdy_protocol.h"
 
 namespace spdy {
 

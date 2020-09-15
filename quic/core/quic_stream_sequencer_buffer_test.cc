@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/core/quic_stream_sequencer_buffer.h"
+#include "quic/core/quic_stream_sequencer_buffer.h"
 
 #include <algorithm>
 #include <cstddef>
@@ -11,12 +11,12 @@
 #include <string>
 #include <utility>
 
-#include "net/third_party/quiche/src/quic/platform/api/quic_logging.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_test.h"
-#include "net/third_party/quiche/src/quic/test_tools/quic_stream_sequencer_buffer_peer.h"
-#include "net/third_party/quiche/src/quic/test_tools/quic_test_utils.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_str_cat.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/platform/api/quic_logging.h"
+#include "quic/platform/api/quic_test.h"
+#include "quic/test_tools/quic_stream_sequencer_buffer_peer.h"
+#include "quic/test_tools/quic_test_utils.h"
+#include "common/platform/api/quiche_str_cat.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

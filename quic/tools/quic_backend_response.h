@@ -5,9 +5,9 @@
 #ifndef QUICHE_QUIC_TOOLS_QUIC_BACKEND_RESPONSE_H_
 #define QUICHE_QUIC_TOOLS_QUIC_BACKEND_RESPONSE_H_
 
-#include "net/third_party/quiche/src/quic/tools/quic_url.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
-#include "net/third_party/quiche/src/spdy/core/spdy_protocol.h"
+#include "quic/tools/quic_url.h"
+#include "common/platform/api/quiche_string_piece.h"
+#include "spdy/core/spdy_protocol.h"
 
 namespace quic {
 

@@ -2,16 +2,16 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/spdy/core/hpack/hpack_encoder.h"
+#include "spdy/core/hpack/hpack_encoder.h"
 
 #include <cstdint>
 #include <map>
 
-#include "net/third_party/quiche/src/http2/test_tools/http2_random.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_test.h"
-#include "net/third_party/quiche/src/spdy/core/hpack/hpack_huffman_table.h"
-#include "net/third_party/quiche/src/spdy/core/spdy_simple_arena.h"
-#include "net/third_party/quiche/src/spdy/platform/api/spdy_flags.h"
+#include "http2/test_tools/http2_random.h"
+#include "common/platform/api/quiche_test.h"
+#include "spdy/core/hpack/hpack_huffman_table.h"
+#include "spdy/core/spdy_simple_arena.h"
+#include "spdy/platform/api/spdy_flags.h"
 
 namespace spdy {
 

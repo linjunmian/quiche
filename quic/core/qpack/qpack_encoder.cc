@@ -2,18 +2,18 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/core/qpack/qpack_encoder.h"
+#include "quic/core/qpack/qpack_encoder.h"
 
 #include <algorithm>
 #include <utility>
 
-#include "net/third_party/quiche/src/quic/core/qpack/qpack_index_conversions.h"
-#include "net/third_party/quiche/src/quic/core/qpack/qpack_instruction_encoder.h"
-#include "net/third_party/quiche/src/quic/core/qpack/qpack_required_insert_count.h"
-#include "net/third_party/quiche/src/quic/core/qpack/value_splitting_header_list.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_logging.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_str_cat.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/qpack/qpack_index_conversions.h"
+#include "quic/core/qpack/qpack_instruction_encoder.h"
+#include "quic/core/qpack/qpack_required_insert_count.h"
+#include "quic/core/qpack/value_splitting_header_list.h"
+#include "quic/platform/api/quic_logging.h"
+#include "common/platform/api/quiche_str_cat.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

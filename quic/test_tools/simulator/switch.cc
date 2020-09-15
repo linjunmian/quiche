@@ -5,8 +5,8 @@
 #include <cinttypes>
 #include <utility>
 
-#include "net/third_party/quiche/src/quic/test_tools/simulator/switch.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_str_cat.h"
+#include "quic/test_tools/simulator/switch.h"
+#include "common/platform/api/quiche_str_cat.h"
 
 namespace quic {
 namespace simulator {

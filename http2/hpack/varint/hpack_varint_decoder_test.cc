@@ -2,18 +2,18 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/http2/hpack/varint/hpack_varint_decoder.h"
+#include "http2/hpack/varint/hpack_varint_decoder.h"
 
 // Test HpackVarintDecoder against hardcoded data.
 
 #include <stddef.h>
 
 #include "testing/gtest/include/gtest/gtest.h"
-#include "net/third_party/quiche/src/http2/platform/api/http2_logging.h"
-#include "net/third_party/quiche/src/http2/platform/api/http2_string_utils.h"
-#include "net/third_party/quiche/src/http2/tools/random_decoder_test.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_arraysize.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "http2/platform/api/http2_logging.h"
+#include "http2/platform/api/http2_string_utils.h"
+#include "http2/tools/random_decoder_test.h"
+#include "common/platform/api/quiche_arraysize.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 using ::testing::AssertionFailure;
 using ::testing::AssertionSuccess;

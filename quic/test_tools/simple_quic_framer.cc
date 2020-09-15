@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/test_tools/simple_quic_framer.h"
+#include "quic/test_tools/simple_quic_framer.h"
 
 #include <memory>
 #include <utility>
 
-#include "net/third_party/quiche/src/quic/core/crypto/quic_decrypter.h"
-#include "net/third_party/quiche/src/quic/core/crypto/quic_encrypter.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_ptr_util.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/crypto/quic_decrypter.h"
+#include "quic/core/crypto/quic_encrypter.h"
+#include "quic/platform/api/quic_ptr_util.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 namespace test {

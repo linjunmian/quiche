@@ -8,16 +8,16 @@
 #include <memory>
 #include <vector>
 
-#include "net/third_party/quiche/src/quic/core/quic_connection_id.h"
-#include "net/third_party/quiche/src/quic/core/quic_data_reader.h"
-#include "net/third_party/quiche/src/quic/core/quic_data_writer.h"
-#include "net/third_party/quiche/src/quic/core/quic_tag.h"
-#include "net/third_party/quiche/src/quic/core/quic_types.h"
-#include "net/third_party/quiche/src/quic/core/quic_versions.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_containers.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_socket_address.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_optional.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/quic_connection_id.h"
+#include "quic/core/quic_data_reader.h"
+#include "quic/core/quic_data_writer.h"
+#include "quic/core/quic_tag.h"
+#include "quic/core/quic_types.h"
+#include "quic/core/quic_versions.h"
+#include "quic/platform/api/quic_containers.h"
+#include "quic/platform/api/quic_socket_address.h"
+#include "common/platform/api/quiche_optional.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

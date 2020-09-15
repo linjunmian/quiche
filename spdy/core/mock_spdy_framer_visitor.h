@@ -9,10 +9,10 @@
 #include <memory>
 #include <utility>
 
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_test.h"
-#include "net/third_party/quiche/src/spdy/core/http2_frame_decoder_adapter.h"
-#include "net/third_party/quiche/src/spdy/core/spdy_test_utils.h"
+#include "common/platform/api/quiche_string_piece.h"
+#include "common/platform/api/quiche_test.h"
+#include "spdy/core/http2_frame_decoder_adapter.h"
+#include "spdy/core/spdy_test_utils.h"
 
 namespace spdy {
 

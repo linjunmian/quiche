@@ -10,10 +10,10 @@
 #include <queue>
 #include <vector>
 
-#include "net/third_party/quiche/src/quic/platform/api/quic_export.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
-#include "net/third_party/quiche/src/spdy/core/hpack/hpack_entry.h"
-#include "net/third_party/quiche/src/spdy/core/hpack/hpack_header_table.h"
+#include "quic/platform/api/quic_export.h"
+#include "common/platform/api/quiche_string_piece.h"
+#include "spdy/core/hpack/hpack_entry.h"
+#include "spdy/core/hpack/hpack_header_table.h"
 
 namespace quic {
 

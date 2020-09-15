@@ -7,9 +7,9 @@
 
 #include <string>
 
-#include "net/third_party/quiche/src/quic/platform/api/quic_export.h"
+#include "quic/platform/api/quic_export.h"
 #include "net/quic/platform/impl/quic_hostname_utils_impl.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

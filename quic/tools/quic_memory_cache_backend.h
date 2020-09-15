@@ -10,14 +10,14 @@
 #include <memory>
 #include <vector>
 
-#include "net/third_party/quiche/src/quic/core/http/spdy_utils.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_containers.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_mutex.h"
-#include "net/third_party/quiche/src/quic/tools/quic_backend_response.h"
-#include "net/third_party/quiche/src/quic/tools/quic_simple_server_backend.h"
-#include "net/third_party/quiche/src/quic/tools/quic_url.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
-#include "net/third_party/quiche/src/spdy/core/spdy_framer.h"
+#include "quic/core/http/spdy_utils.h"
+#include "quic/platform/api/quic_containers.h"
+#include "quic/platform/api/quic_mutex.h"
+#include "quic/tools/quic_backend_response.h"
+#include "quic/tools/quic_simple_server_backend.h"
+#include "quic/tools/quic_url.h"
+#include "common/platform/api/quiche_string_piece.h"
+#include "spdy/core/spdy_framer.h"
 
 namespace quic {
 

@@ -5,7 +5,7 @@
 #ifndef QUICHE_COMMON_PLATFORM_API_QUICHE_ENDIAN_H_
 #define QUICHE_COMMON_PLATFORM_API_QUICHE_ENDIAN_H_
 
-#include "net/third_party/quiche/src/common/platform/api/quiche_export.h"
+#include "common/platform/api/quiche_export.h"
 #include "net/quiche/common/platform/impl/quiche_endian_impl.h"
 
 namespace quiche {

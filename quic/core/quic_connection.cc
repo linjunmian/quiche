@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/core/quic_connection.h"
+#include "quic/core/quic_connection.h"
 
 #include <string.h>
 #include <sys/types.h>
@@ -15,34 +15,34 @@
 #include <string>
 #include <utility>
 
-#include "net/third_party/quiche/src/quic/core/crypto/crypto_protocol.h"
-#include "net/third_party/quiche/src/quic/core/crypto/crypto_utils.h"
-#include "net/third_party/quiche/src/quic/core/crypto/quic_decrypter.h"
-#include "net/third_party/quiche/src/quic/core/crypto/quic_encrypter.h"
-#include "net/third_party/quiche/src/quic/core/proto/cached_network_parameters_proto.h"
-#include "net/third_party/quiche/src/quic/core/quic_bandwidth.h"
-#include "net/third_party/quiche/src/quic/core/quic_config.h"
-#include "net/third_party/quiche/src/quic/core/quic_connection_id.h"
-#include "net/third_party/quiche/src/quic/core/quic_constants.h"
-#include "net/third_party/quiche/src/quic/core/quic_error_codes.h"
-#include "net/third_party/quiche/src/quic/core/quic_legacy_version_encapsulator.h"
-#include "net/third_party/quiche/src/quic/core/quic_packet_creator.h"
-#include "net/third_party/quiche/src/quic/core/quic_types.h"
-#include "net/third_party/quiche/src/quic/core/quic_utils.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_bug_tracker.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_client_stats.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_error_code_wrappers.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_exported_stats.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_flag_utils.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_flags.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_hostname_utils.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_logging.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_map_util.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_socket_address.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_string_utils.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_str_cat.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_text_utils.h"
+#include "quic/core/crypto/crypto_protocol.h"
+#include "quic/core/crypto/crypto_utils.h"
+#include "quic/core/crypto/quic_decrypter.h"
+#include "quic/core/crypto/quic_encrypter.h"
+#include "quic/core/proto/cached_network_parameters_proto.h"
+#include "quic/core/quic_bandwidth.h"
+#include "quic/core/quic_config.h"
+#include "quic/core/quic_connection_id.h"
+#include "quic/core/quic_constants.h"
+#include "quic/core/quic_error_codes.h"
+#include "quic/core/quic_legacy_version_encapsulator.h"
+#include "quic/core/quic_packet_creator.h"
+#include "quic/core/quic_types.h"
+#include "quic/core/quic_utils.h"
+#include "quic/platform/api/quic_bug_tracker.h"
+#include "quic/platform/api/quic_client_stats.h"
+#include "quic/platform/api/quic_error_code_wrappers.h"
+#include "quic/platform/api/quic_exported_stats.h"
+#include "quic/platform/api/quic_flag_utils.h"
+#include "quic/platform/api/quic_flags.h"
+#include "quic/platform/api/quic_hostname_utils.h"
+#include "quic/platform/api/quic_logging.h"
+#include "quic/platform/api/quic_map_util.h"
+#include "quic/platform/api/quic_socket_address.h"
+#include "quic/platform/api/quic_string_utils.h"
+#include "common/platform/api/quiche_str_cat.h"
+#include "common/platform/api/quiche_string_piece.h"
+#include "common/platform/api/quiche_text_utils.h"
 
 namespace quic {
 

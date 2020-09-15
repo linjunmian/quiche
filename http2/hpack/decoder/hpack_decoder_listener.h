@@ -8,10 +8,10 @@
 #ifndef QUICHE_HTTP2_HPACK_DECODER_HPACK_DECODER_LISTENER_H_
 #define QUICHE_HTTP2_HPACK_DECODER_HPACK_DECODER_LISTENER_H_
 
-#include "net/third_party/quiche/src/http2/hpack/hpack_string.h"
-#include "net/third_party/quiche/src/http2/hpack/http2_hpack_constants.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_export.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "http2/hpack/hpack_string.h"
+#include "http2/hpack/http2_hpack_constants.h"
+#include "common/platform/api/quiche_export.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace http2 {
 

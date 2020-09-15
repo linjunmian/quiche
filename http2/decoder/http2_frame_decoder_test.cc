@@ -2,21 +2,21 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/http2/decoder/http2_frame_decoder.h"
+#include "http2/decoder/http2_frame_decoder.h"
 
 // Tests of Http2FrameDecoder.
 
 #include <string>
 #include <vector>
 
-#include "net/third_party/quiche/src/http2/http2_constants.h"
-#include "net/third_party/quiche/src/http2/platform/api/http2_logging.h"
-#include "net/third_party/quiche/src/http2/platform/api/http2_test_helpers.h"
-#include "net/third_party/quiche/src/http2/test_tools/frame_parts.h"
-#include "net/third_party/quiche/src/http2/test_tools/frame_parts_collector_listener.h"
-#include "net/third_party/quiche/src/http2/test_tools/http2_random.h"
-#include "net/third_party/quiche/src/http2/tools/random_decoder_test.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "http2/http2_constants.h"
+#include "http2/platform/api/http2_logging.h"
+#include "http2/platform/api/http2_test_helpers.h"
+#include "http2/test_tools/frame_parts.h"
+#include "http2/test_tools/frame_parts_collector_listener.h"
+#include "http2/test_tools/http2_random.h"
+#include "http2/tools/random_decoder_test.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 using ::testing::AssertionResult;
 using ::testing::AssertionSuccess;

@@ -2,17 +2,17 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/tools/quic_memory_cache_backend.h"
+#include "quic/tools/quic_memory_cache_backend.h"
 
 #include <utility>
 
-#include "net/third_party/quiche/src/quic/core/http/spdy_utils.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_bug_tracker.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_file_utils.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_logging.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_map_util.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_text_utils.h"
+#include "quic/core/http/spdy_utils.h"
+#include "quic/platform/api/quic_bug_tracker.h"
+#include "quic/platform/api/quic_file_utils.h"
+#include "quic/platform/api/quic_logging.h"
+#include "quic/platform/api/quic_map_util.h"
+#include "common/platform/api/quiche_string_piece.h"
+#include "common/platform/api/quiche_text_utils.h"
 
 using spdy::kV3LowestPriority;
 using spdy::SpdyHeaderBlock;

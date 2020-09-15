@@ -5,12 +5,12 @@
 #ifndef QUICHE_QUIC_QBONE_QBONE_CLIENT_H_
 #define QUICHE_QUIC_QBONE_QBONE_CLIENT_H_
 
-#include "net/third_party/quiche/src/quic/qbone/qbone_client_interface.h"
-#include "net/third_party/quiche/src/quic/qbone/qbone_client_session.h"
-#include "net/third_party/quiche/src/quic/qbone/qbone_packet_writer.h"
-#include "net/third_party/quiche/src/quic/tools/quic_client_base.h"
-#include "net/third_party/quiche/src/quic/tools/quic_client_epoll_network_helper.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/qbone/qbone_client_interface.h"
+#include "quic/qbone/qbone_client_session.h"
+#include "quic/qbone/qbone_packet_writer.h"
+#include "quic/tools/quic_client_base.h"
+#include "quic/tools/quic_client_epoll_network_helper.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 // A QboneClient encapsulates connecting to a server via an epoll server

@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/core/crypto/curve25519_key_exchange.h"
+#include "quic/core/crypto/curve25519_key_exchange.h"
 
 #include <memory>
 #include <string>
 #include <utility>
 
-#include "net/third_party/quiche/src/quic/core/crypto/quic_random.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_test.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/crypto/quic_random.h"
+#include "quic/platform/api/quic_test.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 namespace test {

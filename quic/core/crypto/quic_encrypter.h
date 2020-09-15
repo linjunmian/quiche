@@ -8,10 +8,10 @@
 #include <cstddef>
 #include <memory>
 
-#include "net/third_party/quiche/src/quic/core/crypto/quic_crypter.h"
-#include "net/third_party/quiche/src/quic/core/quic_packets.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_export.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/crypto/quic_crypter.h"
+#include "quic/core/quic_packets.h"
+#include "quic/platform/api/quic_export.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

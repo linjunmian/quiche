@@ -8,11 +8,11 @@
 #include <cstddef>
 #include <cstdint>
 
-#include "net/third_party/quiche/src/quic/core/quic_types.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_export.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_endian.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
-#include "net/third_party/quiche/src/common/quiche_data_reader.h"
+#include "quic/core/quic_types.h"
+#include "quic/platform/api/quic_export.h"
+#include "common/platform/api/quiche_endian.h"
+#include "common/platform/api/quiche_string_piece.h"
+#include "common/quiche_data_reader.h"
 
 namespace quic {
 

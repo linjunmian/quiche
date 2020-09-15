@@ -7,11 +7,11 @@
 
 #include <cstdint>
 
-#include "net/third_party/quiche/src/quic/core/qpack/qpack_instruction_decoder.h"
-#include "net/third_party/quiche/src/quic/core/qpack/qpack_stream_receiver.h"
-#include "net/third_party/quiche/src/quic/core/quic_types.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_export.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/qpack/qpack_instruction_decoder.h"
+#include "quic/core/qpack/qpack_stream_receiver.h"
+#include "quic/core/quic_types.h"
+#include "quic/platform/api/quic_export.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

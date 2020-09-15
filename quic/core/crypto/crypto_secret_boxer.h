@@ -10,9 +10,9 @@
 #include <string>
 #include <vector>
 
-#include "net/third_party/quiche/src/quic/platform/api/quic_export.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_mutex.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/platform/api/quic_export.h"
+#include "quic/platform/api/quic_mutex.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

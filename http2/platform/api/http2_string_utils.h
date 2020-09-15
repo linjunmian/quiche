@@ -10,7 +10,7 @@
 #include <utility>
 
 #include "net/http2/platform/impl/http2_string_utils_impl.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace http2 {
 

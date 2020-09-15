@@ -5,12 +5,12 @@
 #ifndef QUICHE_QUIC_PLATFORM_IMPL_BATCH_WRITER_QUIC_BATCH_WRITER_BUFFER_H_
 #define QUICHE_QUIC_PLATFORM_IMPL_BATCH_WRITER_QUIC_BATCH_WRITER_BUFFER_H_
 
-#include "net/third_party/quiche/src/quic/core/quic_circular_deque.h"
-#include "net/third_party/quiche/src/quic/core/quic_linux_socket_utils.h"
-#include "net/third_party/quiche/src/quic/core/quic_packet_writer.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_aligned.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_ip_address.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_socket_address.h"
+#include "quic/core/quic_circular_deque.h"
+#include "quic/core/quic_linux_socket_utils.h"
+#include "quic/core/quic_packet_writer.h"
+#include "quic/platform/api/quic_aligned.h"
+#include "quic/platform/api/quic_ip_address.h"
+#include "quic/platform/api/quic_socket_address.h"
 
 namespace quic {
 

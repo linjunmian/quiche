@@ -5,7 +5,7 @@
 #ifndef QUICHE_QUIC_CORE_UBER_RECEIVED_PACKET_MANAGER_H_
 #define QUICHE_QUIC_CORE_UBER_RECEIVED_PACKET_MANAGER_H_
 
-#include "net/third_party/quiche/src/quic/core/quic_received_packet_manager.h"
+#include "quic/core/quic_received_packet_manager.h"
 
 namespace quic {
 

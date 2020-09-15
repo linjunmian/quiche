@@ -10,9 +10,9 @@
 #include <iostream>
 #include <string>
 
-#include "net/third_party/quiche/src/quic/core/crypto/crypto_framer.h"
-#include "net/third_party/quiche/src/quic/core/quic_utils.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_text_utils.h"
+#include "quic/core/crypto/crypto_framer.h"
+#include "quic/core/quic_utils.h"
+#include "common/platform/api/quiche_text_utils.h"
 
 using std::cerr;
 using std::cout;

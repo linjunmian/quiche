@@ -14,9 +14,9 @@
 #include <string>
 #include <vector>
 
-#include "net/third_party/quiche/src/common/platform/api/quiche_export.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
-#include "net/third_party/quiche/src/spdy/platform/api/spdy_containers.h"
+#include "common/platform/api/quiche_export.h"
+#include "common/platform/api/quiche_string_piece.h"
+#include "spdy/platform/api/spdy_containers.h"
 
 namespace spdy {
 

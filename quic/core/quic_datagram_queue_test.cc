@@ -2,16 +2,16 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/core/quic_datagram_queue.h"
+#include "quic/core/quic_datagram_queue.h"
 
-#include "net/third_party/quiche/src/quic/core/quic_buffer_allocator.h"
-#include "net/third_party/quiche/src/quic/core/quic_time.h"
-#include "net/third_party/quiche/src/quic/core/quic_types.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_mem_slice.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_test.h"
-#include "net/third_party/quiche/src/quic/test_tools/quic_test_utils.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_optional.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/quic_buffer_allocator.h"
+#include "quic/core/quic_time.h"
+#include "quic/core/quic_types.h"
+#include "quic/platform/api/quic_mem_slice.h"
+#include "quic/platform/api/quic_test.h"
+#include "quic/test_tools/quic_test_utils.h"
+#include "common/platform/api/quiche_optional.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 namespace test {

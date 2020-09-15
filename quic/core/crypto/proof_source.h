@@ -9,12 +9,12 @@
 #include <string>
 #include <vector>
 
-#include "net/third_party/quiche/src/quic/core/crypto/quic_crypto_proof.h"
-#include "net/third_party/quiche/src/quic/core/quic_versions.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_export.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_reference_counted.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_socket_address.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/crypto/quic_crypto_proof.h"
+#include "quic/core/quic_versions.h"
+#include "quic/platform/api/quic_export.h"
+#include "quic/platform/api/quic_reference_counted.h"
+#include "quic/platform/api/quic_socket_address.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

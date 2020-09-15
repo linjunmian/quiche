@@ -7,7 +7,7 @@
 
 #include <string>
 
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 // Parses HPACK examples in the format seen in the HPACK specification,
 // RFC 7541. For example:

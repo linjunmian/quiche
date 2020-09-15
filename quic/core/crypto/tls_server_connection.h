@@ -5,9 +5,9 @@
 #ifndef QUICHE_QUIC_CORE_CRYPTO_TLS_SERVER_CONNECTION_H_
 #define QUICHE_QUIC_CORE_CRYPTO_TLS_SERVER_CONNECTION_H_
 
-#include "net/third_party/quiche/src/quic/core/crypto/proof_source.h"
-#include "net/third_party/quiche/src/quic/core/crypto/tls_connection.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/crypto/proof_source.h"
+#include "quic/core/crypto/tls_connection.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

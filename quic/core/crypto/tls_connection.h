@@ -8,8 +8,8 @@
 #include <vector>
 
 #include "third_party/boringssl/src/include/openssl/ssl.h"
-#include "net/third_party/quiche/src/quic/core/quic_types.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/quic_types.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

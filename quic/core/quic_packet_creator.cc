@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/core/quic_packet_creator.h"
+#include "quic/core/quic_packet_creator.h"
 
 #include <algorithm>
 #include <cstddef>
@@ -11,27 +11,27 @@
 #include <string>
 #include <utility>
 
-#include "net/third_party/quiche/src/quic/core/crypto/crypto_protocol.h"
-#include "net/third_party/quiche/src/quic/core/frames/quic_frame.h"
-#include "net/third_party/quiche/src/quic/core/frames/quic_path_challenge_frame.h"
-#include "net/third_party/quiche/src/quic/core/frames/quic_stream_frame.h"
-#include "net/third_party/quiche/src/quic/core/quic_connection_id.h"
-#include "net/third_party/quiche/src/quic/core/quic_constants.h"
-#include "net/third_party/quiche/src/quic/core/quic_data_writer.h"
-#include "net/third_party/quiche/src/quic/core/quic_types.h"
-#include "net/third_party/quiche/src/quic/core/quic_utils.h"
-#include "net/third_party/quiche/src/quic/core/quic_versions.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_aligned.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_bug_tracker.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_exported_stats.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_flag_utils.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_flags.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_logging.h"
-#include "net/third_party/quiche/src/quic/platform/api/quic_server_stats.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_arraysize.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_str_cat.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_text_utils.h"
+#include "quic/core/crypto/crypto_protocol.h"
+#include "quic/core/frames/quic_frame.h"
+#include "quic/core/frames/quic_path_challenge_frame.h"
+#include "quic/core/frames/quic_stream_frame.h"
+#include "quic/core/quic_connection_id.h"
+#include "quic/core/quic_constants.h"
+#include "quic/core/quic_data_writer.h"
+#include "quic/core/quic_types.h"
+#include "quic/core/quic_utils.h"
+#include "quic/core/quic_versions.h"
+#include "quic/platform/api/quic_aligned.h"
+#include "quic/platform/api/quic_bug_tracker.h"
+#include "quic/platform/api/quic_exported_stats.h"
+#include "quic/platform/api/quic_flag_utils.h"
+#include "quic/platform/api/quic_flags.h"
+#include "quic/platform/api/quic_logging.h"
+#include "quic/platform/api/quic_server_stats.h"
+#include "common/platform/api/quiche_arraysize.h"
+#include "common/platform/api/quiche_str_cat.h"
+#include "common/platform/api/quiche_string_piece.h"
+#include "common/platform/api/quiche_text_utils.h"
 
 namespace quic {
 namespace {

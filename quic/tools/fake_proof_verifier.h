@@ -5,8 +5,8 @@
 #ifndef QUICHE_QUIC_TOOLS_FAKE_PROOF_VERIFIER_H_
 #define QUICHE_QUIC_TOOLS_FAKE_PROOF_VERIFIER_H_
 
-#include "net/third_party/quiche/src/quic/core/crypto/proof_verifier.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/crypto/proof_verifier.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

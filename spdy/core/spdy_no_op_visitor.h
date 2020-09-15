@@ -11,9 +11,9 @@
 
 #include <cstdint>
 
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
-#include "net/third_party/quiche/src/spdy/core/http2_frame_decoder_adapter.h"
-#include "net/third_party/quiche/src/spdy/core/spdy_protocol.h"
+#include "common/platform/api/quiche_string_piece.h"
+#include "spdy/core/http2_frame_decoder_adapter.h"
+#include "spdy/core/spdy_protocol.h"
 
 namespace spdy {
 namespace test {

@@ -5,10 +5,10 @@
 #ifndef QUICHE_QUIC_TOOLS_QUIC_SIMPLE_DISPATCHER_H_
 #define QUICHE_QUIC_TOOLS_QUIC_SIMPLE_DISPATCHER_H_
 
-#include "net/third_party/quiche/src/quic/core/http/quic_server_session_base.h"
-#include "net/third_party/quiche/src/quic/core/quic_dispatcher.h"
-#include "net/third_party/quiche/src/quic/tools/quic_simple_server_backend.h"
-#include "net/third_party/quiche/src/common/platform/api/quiche_string_piece.h"
+#include "quic/core/http/quic_server_session_base.h"
+#include "quic/core/quic_dispatcher.h"
+#include "quic/tools/quic_simple_server_backend.h"
+#include "common/platform/api/quiche_string_piece.h"
 
 namespace quic {
 

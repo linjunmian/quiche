@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "net/third_party/quiche/src/quic/test_tools/test_ticket_crypter.h"
+#include "quic/test_tools/test_ticket_crypter.h"
 
 #include <cstring>
 
-#include "net/third_party/quiche/src/common/platform/api/quiche_arraysize.h"
+#include "common/platform/api/quiche_arraysize.h"
 
 namespace quic {
 namespace test {
