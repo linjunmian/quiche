@@ -14,4 +14,4 @@ set(ALL_QUIC_SRCS
     ${QUIC_TRANSPORT_SRCS}
 )
 
-add_library(hippo  STATIC ALL_QUIC_SRCS)
+add_library(hippo  STATIC ${ALL_QUIC_SRCS})
